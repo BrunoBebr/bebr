@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Josefin+Slab:wght@100;300&family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+@import "node_modules/aos/src/sass/aos";
