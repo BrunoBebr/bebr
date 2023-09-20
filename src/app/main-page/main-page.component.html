@@ -3,8 +3,9 @@
 
 
     <mat-grid-list cols="1" rowHeight="100vh">
-      <app-header></app-header>
+     
       <mat-grid-tile>
+        <app-header class="header"></app-header>
         <div class="centertext center">
           <h2 class="centertext">Bruno Bébr</h2>
           <br>
@@ -12,7 +13,7 @@
           
           <!--<mat-icon class="jumping" (click)="scroll(about)">arrow_downward</mat-icon>-->
           
-          <button mat-flat-button class="rouded-button" [routerLink]="['cv']">Click to see my CV</button>
+          <button mat-flat-button class="rouded-button" routerLink="cv">Click to see my CV</button>
     
         </div>
        

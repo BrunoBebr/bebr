@@ -1,5 +1,5 @@
 import { Component, HostListener } from '@angular/core';
-import * as AOS from 'aos';
+//import * as AOS from 'aos';
 
 @Component({
   selector: 'app-main-page',
@@ -17,11 +17,11 @@ export class MainPageComponent {
   constructor() { 
     this.getScreenSize();
 
-   AOS.init();
+  /* AOS.init(); */
     const today = new Date();
     const born = new Date('2004-11-07');
     const msBetweenDates = today.getTime() - born.getTime();
-        
+       
 
         
     function padTo2Digits(num: number) {

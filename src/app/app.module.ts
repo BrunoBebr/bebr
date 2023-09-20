@@ -14,6 +14,7 @@ import { HeaderComponent } from './header/header.component';
 import { CvComponent } from './cv/cv.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import {MatListModule} from '@angular/material/list';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import {MatListModule} from '@angular/material/list';
   ],
   imports: [
     BrowserModule,
+    CommonModule,
     AppRoutingModule,
     MatToolbarModule,
     MatGridListModule,
