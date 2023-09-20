@@ -8,23 +8,19 @@ import {IvyCarouselModule} from 'carousel-angular';
 import {MatChipsModule} from '@angular/material/chips';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatFormFieldModule} from '@angular/material/form-field';
-
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { AboutMeComponent } from './about-me/about-me.component';
-import { SkillsComponent } from './skills/skills.component';
-import { ContactMeComponent } from './contact-me/contact-me.component';
+import { CvComponent } from './cv/cv.component';
+import { MainPageComponent } from './main-page/main-page.component';
+import {MatListModule} from '@angular/material/list';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    AboutMeComponent,
-    SkillsComponent,
-    ContactMeComponent,
-    
+    CvComponent,
+    MainPageComponent    
   ],
   imports: [
     BrowserModule,
@@ -36,8 +32,8 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
     IvyCarouselModule,
     MatChipsModule,
     BrowserAnimationsModule,
-    MatFormFieldModule
-
+    MatFormFieldModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
